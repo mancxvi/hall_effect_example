@@ -1,0 +1,20 @@
+# temp files created by emacs
+
+*~
+\#*\#
+.\#*
+
+# build files
+
+*.elf
+*.hex
+*.obj
+*.o
+*.d
+*.eep
+*.lst
+*.lss
+*.sym
+*.map
+*.eeprom
+
