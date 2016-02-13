@@ -21,8 +21,15 @@ int main(void)
 	/* enable pull-up on hall pin */
 	PORTB |= (1 << HALL_PIN);
 
+	/* enable interrrupt 0 */
+	EIMSK |= (1 << INT0);
+	EICRA |= (1 << ISC00);
+	sei();
+
+	set_sleep_mode(SLEEP_MODE_IDLE);
+	
 	while (1) {
-		
+		sleep_mode();
 	}
 
 	return 0;	
