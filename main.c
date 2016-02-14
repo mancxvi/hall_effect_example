@@ -12,7 +12,7 @@
 #define HALL_PIN PB0
 #define LED_PIN PB1
 
-volatile enum led_status { LED_OFF, LED_ON } led_flag;
+volatile enum { LED_OFF, LED_ON } led_flag;
 
 /* interrupts when a pin change is detected on PB0 */
 ISR(PCINT0_vect)
