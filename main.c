@@ -1,5 +1,5 @@
 /* 
- * hall effect test
+ * hall effect example
  * by will oberndorfer
  *
  * uses Melexis US5881 hall effect sensor
