@@ -17,10 +17,10 @@ volatile enum led_status { LED_OFF, LED_ON } led_flag;
 ISR(PCINT0_vect)
 {
 	if (bit_is_clear(PINB, HALL_PIN)) {
-		led_flag = LED_ON;
+		led_flag = LED_OFF;
 	}
 	else {
-		led_flag = LED_OFF;
+		led_flag = LED_ON;
 	}
 }
 
@@ -43,6 +43,7 @@ int main(void)
 	
 	while (1) {
 		sleep_mode();
+		
 		switch (led_flag) {
 		case LED_OFF:
 			PORTB |= (1 << LED_PIN);
