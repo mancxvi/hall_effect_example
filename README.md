@@ -1,7 +1,7 @@
 hall effect example
 ===================
 
-playing around with a US5881 hall effect sensor on an atmega328p
+playing around with a [US5881 hall effect sensor](http://melexis.com/Position--Speed-Sensors/Hall-Effect-Unipolar-Switches-/US5881-148.aspx) on an atmega328p
 
 works as follows:
 
