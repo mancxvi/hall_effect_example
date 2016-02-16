@@ -7,4 +7,4 @@ works as follows:
 
 - hook up hall effect sensor output to PB0 on the atmega
 - hook an LED up to PB1
-- move a magnet close to the hall effect sensor and marvel at the LED turning on
+- move a magnet close to the hall effect sensor and [marvel at the LED turning on](https://www.youtube.com/watch?v=fFz0uchLJYA)
